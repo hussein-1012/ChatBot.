@@ -1,0 +1,29 @@
+{
+  "name": "mern_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon Backend/Server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure-rest/ai-inference": "^1.0.0-beta.6",
+    "@azure/core-auth": "^1.9.0",
+    "@chakra-ui/react": "^3.23.0",
+    "@emotion/react": "^11.14.0",
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "colors": "^1.4.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1"
+  }
+}
